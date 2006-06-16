@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin GConf2 ORBit2 atk gtk2-x11 libX11_6 libart_lgpl2 libbonobo2 libgnome2 libgnomecanvas2
+sdesc: "GUI library for the GNOME component and compound document system (runtime)"
+ldesc: "GUI library for the GNOME component and compound document system"
