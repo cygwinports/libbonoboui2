@@ -3,32 +3,32 @@ libbonoboui2
 GUI library for the GNOME component and compound document system.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  GConf2-2.10.1-1
-  ORBit2-2.14.0-1
-  atk-1.10.3-1
-  gtk2-x11-2.8.17-1
-  libX11_6-1.0.0-2
+  cygwin-1.5.21-2
+  GConf2-2.16.0-1
+  ORBit2-2.14.3-1
+  atk-1.12.3-1
+  gtk2-x11-2.10.6-1
+  libX11_6-1.0.3-1
   libart_lgpl2-2.3.17-1
-  libbonobo2-2.14.0-1
-  libglade2-2.5.1-1
-  libgnome2-2.14.1-1
+  libbonobo2-2.16.0-1
+  libglade2-2.6.0-1
+  libgnome2-2.16.0-1
   libgnomecanvas2-2.14.0-1
 
 Build requirements:
 (besides coresponding devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.1.90-1
+  cygwin-1.5.21-2
+  autoconf2.5-2.60-1
+  automake1.6-1.6.3-1
+  binutils-20060817-1
+  cygport-0.2.6-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  gtk-doc-1.5-1
-  libtool1.5-1.5.20-2
-  make-3.80-1
+  gtk-doc-1.7-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
   pkg-config-0.20-1
-  sed-4.1.4-1
+  sed-4.1.5-1
 
 Canonical website:
   http://www.gnome.org/
@@ -39,22 +39,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libbonoboui2-2.14.0-1-src.tar.bz2
+  unpack libbonoboui2-2.16.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libbonoboui2-2.14.0-1.cygport all
+  cygport ./libbonoboui2-2.16.0-1.cygport all
 
 This will create:
-  /usr/src/libbonoboui2-2.14.0-1-src.tar.bz2
-  /usr/src/libbonoboui2-2.14.0-1.tar.bz2
-  /usr/src/libbonoboui2-devel-2.14.0-1.tar.bz2
-  /usr/src/libbonoboui2-doc-2.14.0-1.tar.bz2
+  /usr/src/libbonoboui2-2.16.0-1-src.tar.bz2
+  /usr/src/libbonoboui2-2.16.0-1.tar.bz2
+  /usr/src/libbonoboui2-devel-2.16.0-1.tar.bz2
+  /usr/src/libbonoboui2-doc-2.16.0-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(libbonoboui2)
   /usr/bin/bonobo-browser.exe
   /usr/bin/cygbonoboui-2-0.dll
   /usr/bin/test-moniker.exe
@@ -64,14 +65,14 @@ Files included in the binary package:
   /usr/lib/libglade/2.0/cygbonobo.dll
   /usr/lib/libglade/2.0/libbonobo.la
   /usr/share/applications/bonobo-browser.desktop
-  /usr/share/doc/Cygwin/libbonoboui2-2.14.0.README
-  /usr/share/doc/libbonoboui2-2.14.0/COPYING
-  /usr/share/doc/libbonoboui2-2.14.0/COPYING.LIB
-  /usr/share/doc/libbonoboui2-2.14.0/ChangeLog
-  /usr/share/doc/libbonoboui2-2.14.0/Changes.txt
-  /usr/share/doc/libbonoboui2-2.14.0/INSTALL
-  /usr/share/doc/libbonoboui2-2.14.0/NEWS
-  /usr/share/doc/libbonoboui2-2.14.0/README
+  /usr/share/doc/Cygwin/libbonoboui2-2.16.0.README
+  /usr/share/doc/libbonoboui2-2.16.0/COPYING
+  /usr/share/doc/libbonoboui2-2.16.0/COPYING.LIB
+  /usr/share/doc/libbonoboui2-2.16.0/ChangeLog
+  /usr/share/doc/libbonoboui2-2.16.0/Changes.txt
+  /usr/share/doc/libbonoboui2-2.16.0/INSTALL
+  /usr/share/doc/libbonoboui2-2.16.0/NEWS
+  /usr/share/doc/libbonoboui2-2.16.0/README
   /usr/share/gnome-2.0/ui/Bonobo_Sample_Container-ui.xml
   /usr/share/gnome-2.0/ui/Bonobo_Sample_Hello.xml
   /usr/share/gnome-2.0/ui/bonobo-browser.xml
@@ -152,8 +153,7 @@ Files included in the binary package:
   /usr/share/locale/zh_TW/LC_MESSAGES/libbonoboui-2.0.mo
   /usr/share/locale/zu/LC_MESSAGES/libbonoboui-2.0.mo
 
-Files included in the devel package:
-
+(libbonoboui2-devel)
   /usr/include/libbonoboui-2.0/bonobo.h
   /usr/include/libbonoboui-2.0/bonobo/bonobo-canvas-component.h
   /usr/include/libbonoboui-2.0/bonobo/bonobo-canvas-item.h
@@ -191,8 +191,7 @@ Files included in the devel package:
   /usr/lib/libbonoboui-2.la
   /usr/lib/pkgconfig/libbonoboui-2.0.pc
 
-Files included in the doc package:
-
+(libbonoboui2-doc)
   /usr/share/gtk-doc/html/libbonoboui/bonobo-controls.html
   /usr/share/gtk-doc/html/libbonoboui/bonobo-support-utilities.html
   /usr/share/gtk-doc/html/libbonoboui/bonobo-ui.html
@@ -233,6 +232,9 @@ Files included in the doc package:
 ------------------
 
 Port Notes:
+
+----- version 2.16.0-1 -----
+Version bump for GNOME 2.16.
 
 ----- version 2.14.0-1 -----
 Version bump for GNOME 2.14.
