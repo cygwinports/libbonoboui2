@@ -4,7 +4,7 @@ GUI library for the GNOME component and compound document system.
 
 Runtime requirements:
   cygwin-1.5.25-11
-  libart_lgpl2_2-2.3.20-2
+  libart_lgpl_2_2-2.3.20-2
   libatk1.0_0-1.24.0-1
   libbonobo2_0-2.24.0-1
   libgconf2_4-2.24.0-1
