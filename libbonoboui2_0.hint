@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libart_lgpl_2_2 libatk1.0_0 libbonobo2_0 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgnome2_0 libgnomecanvas2_0 libgtk2.0_0 libintl8 libORBit2_0 libpopt0 libX11_6 libxml2
+requires: cygwin libart_lgpl_2_2 libatk1.0_0 libbonobo2_0 libgcc1 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgnome2_0 libgnomecanvas2_0 libgtk2.0_0 libintl8 libORBit2_0 libpopt0 libX11_6 libxml2
 external-source: libbonoboui2
 sdesc: "GUI library for the GNOME component and compound document system (runtime)"
 ldesc: "GUI library for the GNOME component and compound document system"

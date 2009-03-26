@@ -3,34 +3,35 @@ libbonoboui2
 GUI library for the GNOME component and compound document system.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libart_lgpl_2_2-2.3.20-2
-  libatk1.0_0-1.24.0-1
-  libbonobo2_0-2.24.0-1
-  libgconf2_4-2.24.0-1
-  libgdk_pixbuf2.0_0-2.14.5-1
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.5-1
-  libgnome2_0-2.24.1-1
-  libgnomecanvas2_0-2.20.1.1-2
-  libintl8-0.17-2
-  libORBit2_0-2.14.16-1
-  libpopt0-1.14-1
-  libX11_6-1.1.5-1
-  libxml2-2.7.2-1
+  cygwin-1.7.0-44
+  libart_lgpl_2_2-2.3.20-10
+  libatk1.0_0-1.26.0-1
+  libbonobo2_0-2.24.1-1
+  libgcc1-4.3.2-2
+  libgconf2_4-2.26.0-1
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libgnome2_0-2.26.0-1
+  libgnomecanvas2_0-2.26.0-1
+  libintl8-0.17-10
+  libORBit2_0-2.14.17-1
+  libpopt0-1.6.4-4
+  libX11_6-1.2-10
+  libxml2-2.7.3-10
 
 Build requirements:
 (besides coresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.24.0-1
-  gtk-doc-1.11-1
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
+  libtool-2.2.6a-2
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -43,17 +44,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libbonoboui2-2.24.0-1-src.tar.bz2
+  unpack libbonoboui2-2.24.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libbonoboui2-2.24.0-1.cygport all
+  cygport ./libbonoboui2-2.24.1-1.cygport all
 
 This will create:
-  /usr/src/libbonoboui2-2.24.0-1-src.tar.bz2
-  /usr/src/libbonoboui2-2.24.0-1.tar.bz2
-  /usr/src/libbonoboui2-devel-2.24.0-1.tar.bz2
-  /usr/src/libbonoboui2_0-2.24.0-1.tar.bz2
+  /usr/src/libbonoboui2-2.24.1-1-src.tar.bz2
+  /usr/src/libbonoboui2-2.24.1-1.tar.bz2
+  /usr/src/libbonoboui2-devel-2.24.1-1.tar.bz2
+  /usr/src/libbonoboui2_0-2.24.1-1.tar.bz2
 
 -------------------------------------------
 
@@ -66,14 +67,13 @@ Files included in the binary packages:
   /usr/lib/bonobo/servers/Bonobo_Sample_Controls.server
   /usr/lib/bonobo/servers/CanvDemo.server
   /usr/share/applications/bonobo-browser.desktop
-  /usr/share/doc/libbonoboui2-2.24.0/COPYING
-  /usr/share/doc/libbonoboui2-2.24.0/COPYING.LIB
-  /usr/share/doc/libbonoboui2-2.24.0/ChangeLog
-  /usr/share/doc/libbonoboui2-2.24.0/Changes.txt
-  /usr/share/doc/libbonoboui2-2.24.0/INSTALL
-  /usr/share/doc/libbonoboui2-2.24.0/MAINTAINERS
-  /usr/share/doc/libbonoboui2-2.24.0/NEWS
-  /usr/share/doc/libbonoboui2-2.24.0/README
+  /usr/share/doc/libbonoboui2/COPYING
+  /usr/share/doc/libbonoboui2/COPYING.LIB
+  /usr/share/doc/libbonoboui2/ChangeLog
+  /usr/share/doc/libbonoboui2/Changes.txt
+  /usr/share/doc/libbonoboui2/MAINTAINERS
+  /usr/share/doc/libbonoboui2/NEWS
+  /usr/share/doc/libbonoboui2/README
   /usr/share/gnome-2.0/ui/Bonobo_Sample_Container-ui.xml
   /usr/share/gnome-2.0/ui/Bonobo_Sample_Hello.xml
   /usr/share/gnome-2.0/ui/bonobo-browser.xml
@@ -248,30 +248,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.24.0-1 -----
-Version bump for GNOME 2.24.
-
------ version 2.22.0-1 -----
-Version bump for GNOME 2.22.
-
------ version 2.20.0-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.18.0-1 -----
-Version bump for GNOME 2.18.
-
------ version 2.16.0-1 -----
-Version bump for GNOME 2.16.
-
------ version 2.14.0-1 -----
-Version bump for GNOME 2.14.
-Created separate -devel and -doc packages.
-
------ version 2.10.1-1 -----
-Version bump.
-
------ version 2.8.0-1 -----
-Initial release frm the Cygwin distribution.
+----- version 2.24.1-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
