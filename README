@@ -3,36 +3,36 @@ libbonoboui2
 GUI library for the GNOME component and compound document system.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-62
   libart_lgpl_2_2-2.3.20-10
-  libatk1.0_0-1.26.0-1
-  libbonobo2_0-2.24.1-1
-  libgcc1-4.3.2-2
-  libgconf2_4-2.26.0-1
-  libgdk_pixbuf2.0_0-2.16.0-1
-  libglib2.0_0-2.20.0-1
-  libgtk2.0_0-2.16.0-1
-  libgnome2_0-2.26.0-1
+  libatk1.0_0-1.28.0-1
+  libbonobo2_0-2.24.2-1
+  libgcc1-4.3.4-1
+  libgconf2_4-2.28.0-1
+  libgdk_pixbuf2.0_0-2.18.3-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  libgnome2_0-2.28.0-1
   libgnomecanvas2_0-2.26.0-1
-  libintl8-0.17-10
+  libintl8-0.17-11
   libORBit2_0-2.14.17-1
   libpopt0-1.6.4-4
-  libX11_6-1.2-10
-  libxml2-2.7.3-10
+  libX11_6-1.3.2-1
+  libxml2-2.7.4-1
 
 Build requirements:
 (besides coresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gnome-common-2.26.0-1
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gnome-common-2.28.0-1
   gtk-doc-1.11-2
-  libtool-2.2.6a-2
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -44,209 +44,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libbonoboui2-2.24.1-1-src.tar.bz2
+  unpack libbonoboui2-2.24.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libbonoboui2-2.24.1-1.cygport all
+  cygport ./libbonoboui2-2.24.2-1.cygport all
 
 This will create:
-  /usr/src/libbonoboui2-2.24.1-1-src.tar.bz2
-  /usr/src/libbonoboui2-2.24.1-1.tar.bz2
-  /usr/src/libbonoboui2-devel-2.24.1-1.tar.bz2
-  /usr/src/libbonoboui2_0-2.24.1-1.tar.bz2
+  /usr/src/libbonoboui2-2.24.2-1-src.tar.bz2
+  /usr/src/libbonoboui2-2.24.2-1.tar.bz2
+  /usr/src/libbonoboui2-devel-2.24.2-1.tar.bz2
+  /usr/src/libbonoboui2_0-2.24.2-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libbonoboui2)
-  /usr/bin/bonobo-browser.exe
-  /usr/bin/test-moniker.exe
-  /usr/lib/bonobo-2.0/samples/bonobo-sample-controls-2.exe
-  /usr/lib/bonobo/servers/Bonobo_Sample_Controls.server
-  /usr/lib/bonobo/servers/CanvDemo.server
-  /usr/share/applications/bonobo-browser.desktop
-  /usr/share/doc/libbonoboui2/COPYING
-  /usr/share/doc/libbonoboui2/COPYING.LIB
-  /usr/share/doc/libbonoboui2/ChangeLog
-  /usr/share/doc/libbonoboui2/Changes.txt
-  /usr/share/doc/libbonoboui2/MAINTAINERS
-  /usr/share/doc/libbonoboui2/NEWS
-  /usr/share/doc/libbonoboui2/README
-  /usr/share/gnome-2.0/ui/Bonobo_Sample_Container-ui.xml
-  /usr/share/gnome-2.0/ui/Bonobo_Sample_Hello.xml
-  /usr/share/gnome-2.0/ui/bonobo-browser.xml
-
-(libbonoboui2_0)
-  /usr/bin/cygbonoboui-2-0.dll
-  /usr/lib/libglade/2.0/cygbonobo.dll
-  /usr/lib/libglade/2.0/libbonobo.la
-  /usr/share/locale/af/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/am/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ar/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/as/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/az/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/be/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/bg/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/bn/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/bn_IN/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/bs/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ca/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/cs/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/cy/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/da/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/de/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/dz/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/el/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/en_CA/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/es/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/et/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/eu/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/fa/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/fi/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/fr/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ga/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/gl/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/gu/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/he/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/hi/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/hr/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/hu/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/id/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/is/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/it/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ja/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ka/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/kn/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ko/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ku/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/li/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/lt/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/lv/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/mai/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/mg/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/mk/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ml/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/mn/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/mr/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ms/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/nb/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ne/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/nl/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/nn/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/nso/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/oc/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/or/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/pa/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/pl/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ps/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/pt/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ro/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ru/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/rw/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/si/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sk/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sl/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sq/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sr/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sr@ije/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sr@latin/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/sv/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/ta/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/te/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/th/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/tr/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/uk/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/vi/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/wa/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/xh/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/yi/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/zh_HK/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/libbonoboui-2.0.mo
-  /usr/share/locale/zu/LC_MESSAGES/libbonoboui-2.0.mo
-
-(libbonoboui2-devel)
-  /usr/include/libbonoboui-2.0/bonobo.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-canvas-component.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-canvas-item.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-control-frame.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-control.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-dock-band.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-dock-item.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-dock-layout.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-dock.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-file-selector-util.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-plug.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-selector-widget.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-selector.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-socket.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-component.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-config-widget.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-container.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-engine.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-main.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-node.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-sync.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-button-item.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-item.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-toggle-button-item.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-type-builtins.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-util.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-widget.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-window.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-zoomable-frame.h
-  /usr/include/libbonoboui-2.0/bonobo/bonobo-zoomable.h
-  /usr/include/libbonoboui-2.0/libbonoboui.h
-  /usr/lib/libbonoboui-2.dll.a
-  /usr/lib/libbonoboui-2.la
-  /usr/lib/pkgconfig/libbonoboui-2.0.pc
-  /usr/share/gtk-doc/html/libbonoboui/bonobo-controls.html
-  /usr/share/gtk-doc/html/libbonoboui/bonobo-support-utilities.html
-  /usr/share/gtk-doc/html/libbonoboui/bonobo-ui.html
-  /usr/share/gtk-doc/html/libbonoboui/ch01.html
-  /usr/share/gtk-doc/html/libbonoboui/control-frame.png
-  /usr/share/gtk-doc/html/libbonoboui/control.png
-  /usr/share/gtk-doc/html/libbonoboui/home.png
-  /usr/share/gtk-doc/html/libbonoboui/index.html
-  /usr/share/gtk-doc/html/libbonoboui/index.sgml
-  /usr/share/gtk-doc/html/libbonoboui/ix01.html
-  /usr/share/gtk-doc/html/libbonoboui/left.png
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-a11y.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-control-frame.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-control.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-file-selector-util.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-plug.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-property-control.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-selector-widget.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-selector.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-socket.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-component.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-container.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-engine-config.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-engine.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-node.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-preferences.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-sync.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-ui-util.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-widget.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-window.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-bonobo-wrapper.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui-faq.html
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui.devhelp
-  /usr/share/gtk-doc/html/libbonoboui/libbonoboui.devhelp2
-  /usr/share/gtk-doc/html/libbonoboui/right.png
-  /usr/share/gtk-doc/html/libbonoboui/style.css
-  /usr/share/gtk-doc/html/libbonoboui/up.png
-
-------------------
-
 Port Notes:
+
+----- version 2.24.2-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.24.1-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
