@@ -1,4 +1,0 @@
-category: Gnome
-requires: libbonobo2_0 libbonoboui2_0 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libORBit2_0
-sdesc: "GUI library for the GNOME component and compound document system (apps)"
-ldesc: "GUI library for the GNOME component and compound document system"

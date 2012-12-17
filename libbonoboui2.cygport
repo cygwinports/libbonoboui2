@@ -1,6 +1,12 @@
 ORIG_PN=libbonoboui
-
 inherit gnome2
+
+NAME="libbonoboui2"
+VERSION=2.24.5
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GUI library for the GNOME component and compound document system"
+DESCRIPTION="GUI library for the GNOME component and compound document system"
 
 PKG_NAMES="${PN} ${PN}_0 ${PN}-devel"
 libbonoboui2_CONTENTS="usr/bin/*.exe usr/lib/bonobo-2.0/ usr/lib/bonobo/
